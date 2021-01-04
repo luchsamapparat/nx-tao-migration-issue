@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "nxTaoMigrationIssue",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "nx-tao-migration-issue",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
